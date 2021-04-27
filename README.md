@@ -1,1 +1,3 @@
-# Python_Back-End
+# Python_Back-End  
+
+'깔끔한 파이썬 탄탄한 백엔드'를 기준으로 공부한 내용을 기록합니다.  
