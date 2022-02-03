@@ -1,0 +1,10 @@
+####Flask Start####
+FLASK_ENV=development FKAS_APP=app.py flask run
+
+
+
+http -v GET localhost:5000/ping
+http -v POST localhost:5000/sign-up name=park email=park@naver.com password=1234
+http -v POST localhost:5000/tweet id:=1 tweet='my first tweet'
+http -v POST localhost:5000/follow id:=1 follow:=2
+http -v GET localhost:5000/timeline/1
